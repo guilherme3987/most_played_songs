@@ -1,5 +1,6 @@
 client id 
 client secret 
+const tokenUrl = 'https://accounts.spotify.com/api/token';
 
 ### O que será usado ###
 
