@@ -1,0 +1,24 @@
+client id 
+client secret 
+
+### O que será usado ###
+
+- require
+importar módulos como:
+
+-> express: criação de servidores e gerenciar
+rotas HTTP
+
+-> axios: fazer chamadas para API
+
+-> querystring: cria objs js em uma string para ser incluída na URL
+
+-> cors: middleware para requisiçoes de outros domínios
+
+-> dotenv: carregar variáveis de ambiente em um arquivo .env
+require('dotenv').config(); carrega o arquivo .env e coloca as variáveis definidas nele na process.env, que podem ser acessadas como process.env.NOME_DA_VARIAVEL.
+
+
+### Teste com servidor js ###
+npm install -g http-server
+http-server
